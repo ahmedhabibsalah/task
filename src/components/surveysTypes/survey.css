@@ -1,0 +1,30 @@
+.sv_main {
+  width: 60% !important;
+  font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif,
+    "Helvetica Neue", Arial, sans-serif;
+  font-size: 20px !important;
+  background: transparent !important;
+  margin-left: 1.5rem !important;
+}
+.sv_main .sv_custom_header {
+  background-color: transparent !important;
+}
+.sv_main .sv_body {
+  background-color: transparent !important;
+  border-top: 2px solid #1ab394;
+}
+.sv_main .sv_p_root > .sv_row:nth-child(odd) {
+  background-color: transparent !important;
+}
+.sv_main .sv_p_root > .sv_row:nth-child(even) {
+  background-color: transparent !important;
+}
+.sv_main .sv_container .sv_body.sv_completed_page {
+  text-align: unset !important;
+  padding: 5em 1em;
+}
+.sv_main input[type="button"],
+.sv_main button {
+  color: white;
+  background-color: #007bff !important;
+}
